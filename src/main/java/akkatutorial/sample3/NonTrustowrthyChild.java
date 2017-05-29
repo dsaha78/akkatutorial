@@ -24,7 +24,7 @@ public class NonTrustowrthyChild extends AbstractLoggingActor {
 		}
 	}
 	
-	public static Props props(String passwd) {
+	public static Props props() {
 		return Props.create(NonTrustowrthyChild.class);
 	}
 	
